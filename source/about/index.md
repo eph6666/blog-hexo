@@ -2,7 +2,7 @@
 layout: "about"
 title: "About"
 description: "点进来你就吃亏了"
-header-img: "http://wx4.sinaimg.cn/large/005K5wz9ly1g1oc0vuy0yj31900u0nib.jpg"
+header-img: "https://wx4.sinaimg.cn/large/005K5wz9ly1g1oc0vuy0yj31900u0nib.jpg"
 aplayer: false
 fixed: false
 ---

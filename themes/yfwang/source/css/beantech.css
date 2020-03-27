@@ -1,3 +1,11 @@
+@font-face {font-family: 'webfont';
+    src: url('webfont.eot'); /* IE9*/
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('webfont.woff') format('woff'), /* chrome、firefox */
+    url('webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
+
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
@@ -16,7 +24,7 @@
 .sidebar-container h5 {
   color: #808080;
   padding-bottom: 1em;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 .sidebar-container h5 a {
   color: #808080 !important;
@@ -56,7 +64,11 @@ body {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC",
+    "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei",
+    "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN",
+    "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   font-size: 16px;
   color: #404040;
@@ -75,7 +87,11 @@ h6 {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC",
+    "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei",
+    "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN",
+    "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   line-height: 1.1;
   font-weight: bold;
@@ -95,7 +111,7 @@ a img:focus {
   cursor: zoom-in;
 }
 article {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 blockquote {
   color: #808080;
@@ -128,16 +144,16 @@ img.shadow {
   }
 }
 select {
-    -webkit-appearance: none;
-    margin-top: 15px;
-    color: #337ab7;
-    border-color: #337ab7;
-    padding: 0 .4em;
-    background: #fff;
+  -webkit-appearance: none;
+  margin-top: 15px;
+  color: #337ab7;
+  border-color: #337ab7;
+  padding: 0 0.4em;
+  background: #fff;
 }
 select.sel-lang {
-    min-height: 28px;
-    font-size: 14px;
+  min-height: 28px;
+  font-size: 14px;
 }
 .table th,
 .table td {
@@ -240,7 +256,8 @@ pre code {
     border: none;
     background: white;
     box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.239216) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px,
+      rgba(0, 0, 0, 0.239216) 0px 1px 4px;
     border-radius: 2px;
     width: 170px;
     float: right;
@@ -298,7 +315,11 @@ pre code {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC",
+    "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei",
+    "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN",
+    "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
 }
 .navbar-custom .navbar-brand {
@@ -306,10 +327,8 @@ pre code {
   color: white;
   height: 56px;
   line-height: 25px;
-    text-shadow:1px 1px 0.5px #818181,
-               1px -1px 0.5px #818181,
-              -1px 1px 0.5px #818181,
-              -1px -1px 0.5px #818181;
+  text-shadow: 1px 1px 0.3px #818181, 1px -1px 0.3px #818181,
+    -1px 1px 0.3px #818181, -1px -1px 0.3px #818181;
 }
 .navbar-custom .navbar-brand:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -379,6 +398,7 @@ pre code {
   }
   .navbar-custom.is-fixed .navbar-brand {
     color: #404040;
+    text-shadow: none;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
@@ -422,10 +442,8 @@ pre code {
 .intro-header .page-heading {
   padding: 85px 0 55px;
   color: white;
-  text-shadow:2px 2px 2px #818181,
-              2px -2px 2px #818181,
-              -2px 2px 2px #818181,
-              -2px -2px 2px #818181;
+  text-shadow: 2px 2px 2px #818181, 2px -2px 2px #818181, -2px 2px 2px #818181,
+    -2px -2px 2px #818181;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -457,7 +475,11 @@ pre code {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC",
+    "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei",
+    "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN",
+    "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   font-size: 18px;
   line-height: 1.1;
@@ -485,7 +507,11 @@ pre code {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC",
+    "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei",
+    "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN",
+    "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   font-size: 17px;
   line-height: 1.4;
@@ -494,7 +520,7 @@ pre code {
   margin-top: -5px;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Lora", "Times New Roman", serif;
   font-style: italic;
   font-weight: 300;
   font-size: 18px;
@@ -535,7 +561,7 @@ pre code {
   margin-bottom: 10px;
 }
 .post-preview > .post-meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  /* font-family: "Lora", "Times New Roman", serif; */
   color: #808080;
   font-size: 16px;
   font-style: italic;
@@ -639,13 +665,13 @@ footer .copyright a:focus {
   margin: 0;
   font-size: 0.85em;
   line-height: 1.764705882em;
-  vertical-align: middle;
-  vertical-align: baseline;
+  /* vertical-align: middle;
+  vertical-align: baseline; */
   opacity: 0;
-  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
-  -moz-transition: top 0.3s ease,opacity 0.3s ease;
-  -ms-transition: top 0.3s ease,opacity 0.3s ease;
-  transition: top 0.3s ease,opacity 0.3s ease;
+  -webkit-transition: top 0.3s ease, opacity 0.3s ease;
+  -moz-transition: top 0.3s ease, opacity 0.3s ease;
+  -ms-transition: top 0.3s ease, opacity 0.3s ease;
+  transition: top 0.3s ease, opacity 0.3s ease;
 }
 .floating-label-form-group::not(:first-child) {
   padding-left: 14px;
@@ -666,7 +692,11 @@ form .row:first-child .floating-label-form-group {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC",
+    "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei",
+    "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN",
+    "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   text-transform: uppercase;
   font-size: 14px;
@@ -695,7 +725,11 @@ form .row:first-child .floating-label-form-group {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC",
+    "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei",
+    "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN",
+    "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   text-transform: uppercase;
   font-size: 13px;
@@ -747,9 +781,9 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
-body {
+/* body {
   webkit-tap-highlight-color: #0085a1;
-}
+} */
 /* Hux add tags support */
 .tags {
   margin-bottom: -5px;
@@ -800,7 +834,7 @@ body {
   line-height: 28px;
   margin: 0 2px;
   margin-bottom: 8px;
-  background: #D6D6D6;
+  background: #d6d6d6;
 }
 #tag_cloud a:hover,
 #tag_cloud .tag:hover,
@@ -843,7 +877,11 @@ body {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC",
+    "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei",
+    "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN",
+    "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
 }
 .one-tag-list .post-preview {

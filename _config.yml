@@ -18,22 +18,22 @@ permalink_defaults:
   lang: en
 
 # PIC LIST
-# http://ww1.sinaimg.cn/large/005K5wz9ly1g3kougq9i8j33yo2qyb2a.jpg
-# http://ww1.sinaimg.cn/large/005K5wz9ly1g3kov0lgs7j34mo334kjm.jpg
-# http://ww1.sinaimg.cn/large/005K5wz9ly1g3kovci6m2j34fp2yhqv6.jpg
-# http://ww1.sinaimg.cn/large/005K5wz9ly1g3kow08lw4j34ho36n7wi.jpg
-# http://ww1.sinaimg.cn/large/005K5wz9ly1g3kowacsgnj34462xu1kz.jpg
+# https://ww1.sinaimg.cn/large/005K5wz9ly1g3kougq9i8j33yo2qyb2a.jpg
+# https://ww1.sinaimg.cn/large/005K5wz9ly1g3kov0lgs7j34mo334kjm.jpg
+# https://ww1.sinaimg.cn/large/005K5wz9ly1g3kovci6m2j34fp2yhqv6.jpg
+# https://ww1.sinaimg.cn/large/005K5wz9ly1g3kow08lw4j34ho36n7wi.jpg
+# https://ww1.sinaimg.cn/large/005K5wz9ly1g3kowacsgnj34462xu1kz.jpg
 
 # Site settings
 SEOTitle: yfwang | Blog
 email: e-mail_address
 description: ""
 keyword: ""
-header-img: http://ww1.sinaimg.cn/large/005K5wz9ly1g3kougq9i8j33yo2qyb2a.jpg
-article-img: http://ww1.sinaimg.cn/large/005K5wz9ly1g3kov0lgs7j34mo334kjm.jpg
+header-img: https://ww1.sinaimg.cn/large/005K5wz9ly1g3kougq9i8j33yo2qyb2a.jpg
+article-img: https://ww1.sinaimg.cn/large/005K5wz9ly1g3kov0lgs7j34mo334kjm.jpg
 # 404-img: ToDo_PIC
 signature: false #show signature
-signature-img: http://ww1.sinaimg.cn/large/005K5wz9ly1g3kovci6m2j34fp2yhqv6.jpg
+signature-img: https://ww1.sinaimg.cn/large/005K5wz9ly1g3kovci6m2j34fp2yhqv6.jpg
 
 
 # SNS settings
