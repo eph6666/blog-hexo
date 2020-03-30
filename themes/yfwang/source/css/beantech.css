@@ -327,8 +327,8 @@ pre code {
   color: white;
   height: 56px;
   line-height: 25px;
-  text-shadow: 1px 1px 0.3px #818181, 1px -1px 0.3px #818181,
-    -1px 1px 0.3px #818181, -1px -1px 0.3px #818181;
+  /* text-shadow: 1px 1px 0.3px #818181, 1px -1px 0.3px #818181, */
+    /* -1px 1px 0.3px #818181, -1px -1px 0.3px #818181; */
 }
 .navbar-custom .navbar-brand:hover {
   color: rgba(255, 255, 255, 0.8);
